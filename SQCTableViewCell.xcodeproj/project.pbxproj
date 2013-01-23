@@ -16,6 +16,18 @@
 		E725827F16ADF84300A51E70 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E725827E16ADF84300A51E70 /* Default.png */; };
 		E725828116ADF84300A51E70 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E725828016ADF84300A51E70 /* Default@2x.png */; };
 		E725828316ADF84300A51E70 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E725828216ADF84300A51E70 /* Default-568h@2x.png */; };
+		E725828C16ADF8DF00A51E70 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E725828B16ADF8DF00A51E70 /* MainViewController.m */; };
+		E725829016ADFC1400A51E70 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E725828F16ADFC1400A51E70 /* DataSource.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		E7C7707E16AE283F00BBA118 /* NetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7707D16AE283F00BBA118 /* NetWorking.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		E7C7708216AE2F6100BBA118 /* MainViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7708116AE2F6100BBA118 /* MainViewTableViewCell.m */; };
+		E7C770A116AE6D9A00BBA118 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C770A016AE6D9A00BBA118 /* QuartzCore.framework */; };
+		E7C770A516AE6ED900BBA118 /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C770A416AE6ED900BBA118 /* WeatherViewController.m */; };
+		E7C770AD16AE7DCA00BBA118 /* PhoneNumberObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C770AC16AE7DCA00BBA118 /* PhoneNumberObject.m */; };
+		E7C770B016AE81B200BBA118 /* WeatherInfoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C770AF16AE81B200BBA118 /* WeatherInfoObject.m */; };
+		E7D55C2A16AFB14400B81E52 /* PhoneNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D55C2916AFB14400B81E52 /* PhoneNumberViewController.m */; };
+		E7D55C3216AFC48300B81E52 /* SlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D55C3116AFC48300B81E52 /* SlideViewController.m */; };
+		E7D55C3516AFC80B00B81E52 /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D55C3416AFC80B00B81E52 /* LeftSlideViewController.m */; };
+		E7D55C3816AFC82400B81E52 /* RightSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D55C3716AFC82400B81E52 /* RightSlideViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +44,29 @@
 		E725827E16ADF84300A51E70 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		E725828016ADF84300A51E70 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		E725828216ADF84300A51E70 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E725828A16ADF8DF00A51E70 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ViewControllers/MainViewController.h; sourceTree = "<group>"; };
+		E725828B16ADF8DF00A51E70 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ViewControllers/MainViewController.m; sourceTree = "<group>"; };
+		E725828E16ADFC1400A51E70 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataSource.h; path = Model/DataSource.h; sourceTree = "<group>"; };
+		E725828F16ADFC1400A51E70 /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataSource.m; path = Model/DataSource.m; sourceTree = "<group>"; };
+		E7C7707C16AE283F00BBA118 /* NetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorking.h; sourceTree = "<group>"; };
+		E7C7707D16AE283F00BBA118 /* NetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorking.m; sourceTree = "<group>"; };
+		E7C7708016AE2F6100BBA118 /* MainViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewTableViewCell.h; sourceTree = "<group>"; };
+		E7C7708116AE2F6100BBA118 /* MainViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewTableViewCell.m; sourceTree = "<group>"; };
+		E7C770A016AE6D9A00BBA118 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E7C770A316AE6ED900BBA118 /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeatherViewController.h; path = ViewControllers/WeatherViewController.h; sourceTree = "<group>"; };
+		E7C770A416AE6ED900BBA118 /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeatherViewController.m; path = ViewControllers/WeatherViewController.m; sourceTree = "<group>"; };
+		E7C770AB16AE7DCA00BBA118 /* PhoneNumberObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhoneNumberObject.h; path = Model/Object/PhoneNumberObject.h; sourceTree = "<group>"; };
+		E7C770AC16AE7DCA00BBA118 /* PhoneNumberObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhoneNumberObject.m; path = Model/Object/PhoneNumberObject.m; sourceTree = "<group>"; };
+		E7C770AE16AE81B200BBA118 /* WeatherInfoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeatherInfoObject.h; path = Model/Object/WeatherInfoObject.h; sourceTree = "<group>"; };
+		E7C770AF16AE81B200BBA118 /* WeatherInfoObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeatherInfoObject.m; path = Model/Object/WeatherInfoObject.m; sourceTree = "<group>"; };
+		E7D55C2816AFB14300B81E52 /* PhoneNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhoneNumberViewController.h; path = ViewControllers/PhoneNumberViewController.h; sourceTree = "<group>"; };
+		E7D55C2916AFB14400B81E52 /* PhoneNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhoneNumberViewController.m; path = ViewControllers/PhoneNumberViewController.m; sourceTree = "<group>"; };
+		E7D55C3016AFC48200B81E52 /* SlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideViewController.h; sourceTree = "<group>"; };
+		E7D55C3116AFC48300B81E52 /* SlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideViewController.m; sourceTree = "<group>"; };
+		E7D55C3316AFC80B00B81E52 /* LeftSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftSlideViewController.h; path = ViewControllers/LeftSlideViewController.h; sourceTree = "<group>"; };
+		E7D55C3416AFC80B00B81E52 /* LeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftSlideViewController.m; path = ViewControllers/LeftSlideViewController.m; sourceTree = "<group>"; };
+		E7D55C3616AFC82400B81E52 /* RightSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RightSlideViewController.h; path = ViewControllers/RightSlideViewController.h; sourceTree = "<group>"; };
+		E7D55C3716AFC82400B81E52 /* RightSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RightSlideViewController.m; path = ViewControllers/RightSlideViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7C770A116AE6D9A00BBA118 /* QuartzCore.framework in Frameworks */,
 				E725826D16ADF84300A51E70 /* UIKit.framework in Frameworks */,
 				E725826F16ADF84300A51E70 /* Foundation.framework in Frameworks */,
 				E725827116ADF84300A51E70 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +104,7 @@
 		E725826B16ADF84300A51E70 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E7C770A016AE6D9A00BBA118 /* QuartzCore.framework */,
 				E725826C16ADF84300A51E70 /* UIKit.framework */,
 				E725826E16ADF84300A51E70 /* Foundation.framework */,
 				E725827016ADF84300A51E70 /* CoreGraphics.framework */,
@@ -78,6 +115,10 @@
 		E725827216ADF84300A51E70 /* SQCTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				E7C7707F16AE2F3700BBA118 /* View */,
+				E7C7707B16AE283F00BBA118 /* NetWorking */,
+				E725828D16ADFBE100A51E70 /* Model */,
+				E725828916ADF8A000A51E70 /* ViewControllers */,
 				E725827B16ADF84300A51E70 /* AppDelegate.h */,
 				E725827C16ADF84300A51E70 /* AppDelegate.m */,
 				E725827316ADF84300A51E70 /* Supporting Files */,
@@ -97,6 +138,64 @@
 				E725828216ADF84300A51E70 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E725828916ADF8A000A51E70 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E7D55C3016AFC48200B81E52 /* SlideViewController.h */,
+				E7D55C3116AFC48300B81E52 /* SlideViewController.m */,
+				E7D55C3316AFC80B00B81E52 /* LeftSlideViewController.h */,
+				E7D55C3416AFC80B00B81E52 /* LeftSlideViewController.m */,
+				E7D55C3616AFC82400B81E52 /* RightSlideViewController.h */,
+				E7D55C3716AFC82400B81E52 /* RightSlideViewController.m */,
+				E725828A16ADF8DF00A51E70 /* MainViewController.h */,
+				E725828B16ADF8DF00A51E70 /* MainViewController.m */,
+				E7C770A316AE6ED900BBA118 /* WeatherViewController.h */,
+				E7C770A416AE6ED900BBA118 /* WeatherViewController.m */,
+				E7D55C2816AFB14300B81E52 /* PhoneNumberViewController.h */,
+				E7D55C2916AFB14400B81E52 /* PhoneNumberViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E725828D16ADFBE100A51E70 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E7C770AA16AE7D5100BBA118 /* Object */,
+				E725828E16ADFC1400A51E70 /* DataSource.h */,
+				E725828F16ADFC1400A51E70 /* DataSource.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E7C7707B16AE283F00BBA118 /* NetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				E7C7707C16AE283F00BBA118 /* NetWorking.h */,
+				E7C7707D16AE283F00BBA118 /* NetWorking.m */,
+			);
+			path = NetWorking;
+			sourceTree = "<group>";
+		};
+		E7C7707F16AE2F3700BBA118 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E7C7708016AE2F6100BBA118 /* MainViewTableViewCell.h */,
+				E7C7708116AE2F6100BBA118 /* MainViewTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E7C770AA16AE7D5100BBA118 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				E7C770AB16AE7DCA00BBA118 /* PhoneNumberObject.h */,
+				E7C770AC16AE7DCA00BBA118 /* PhoneNumberObject.m */,
+				E7C770AE16AE81B200BBA118 /* WeatherInfoObject.h */,
+				E7C770AF16AE81B200BBA118 /* WeatherInfoObject.m */,
+			);
+			name = Object;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +265,17 @@
 			files = (
 				E725827916ADF84300A51E70 /* main.m in Sources */,
 				E725827D16ADF84300A51E70 /* AppDelegate.m in Sources */,
+				E725828C16ADF8DF00A51E70 /* MainViewController.m in Sources */,
+				E725829016ADFC1400A51E70 /* DataSource.m in Sources */,
+				E7C7707E16AE283F00BBA118 /* NetWorking.m in Sources */,
+				E7C7708216AE2F6100BBA118 /* MainViewTableViewCell.m in Sources */,
+				E7C770A516AE6ED900BBA118 /* WeatherViewController.m in Sources */,
+				E7C770AD16AE7DCA00BBA118 /* PhoneNumberObject.m in Sources */,
+				E7C770B016AE81B200BBA118 /* WeatherInfoObject.m in Sources */,
+				E7D55C2A16AFB14400B81E52 /* PhoneNumberViewController.m in Sources */,
+				E7D55C3216AFC48300B81E52 /* SlideViewController.m in Sources */,
+				E7D55C3516AFC80B00B81E52 /* LeftSlideViewController.m in Sources */,
+				E7D55C3816AFC82400B81E52 /* RightSlideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +349,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SQCTableViewCell/SQCTableViewCell-Prefix.pch";
 				INFOPLIST_FILE = "SQCTableViewCell/SQCTableViewCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -250,6 +361,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SQCTableViewCell/SQCTableViewCell-Prefix.pch";
 				INFOPLIST_FILE = "SQCTableViewCell/SQCTableViewCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +386,7 @@
 				E725828816ADF84300A51E70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,9 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MainViewController.h"
 @implementation AppDelegate
-
+@synthesize mainViewController;
 - (void)dealloc
 {
     [_window release];
@@ -20,6 +20,11 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
+    UINavigationController *navgationController = [[UINavigationController alloc] initWithRootViewController:
+                                                   [[MainViewController alloc] init]];
+    SlideViewController *slide = [[SlideViewController alloc] init];
+    self.mainViewController = slide;
+    self.window.rootViewController = mainViewController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
